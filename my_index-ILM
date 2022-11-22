@@ -1,0 +1,31 @@
+{
+  "indices" : {
+    "my_index-000001" : {
+      "index" : "my_index-000001",
+      "managed" : true,
+      "policy" : "120-days-default",
+      "lifecycle_date_millis" : 1669129036430,
+      "age" : "52.1m",
+      "phase" : "hot",
+      "phase_time_millis" : 1669130711445,
+      "action" : "complete",
+      "action_time_millis" : 1669130975655,
+      "step" : "complete",
+      "step_time_millis" : 1669130975655,
+      "phase_execution" : {
+        "policy" : "120-days-default",
+        "phase_definition" : {
+          "min_age" : "0ms",
+          "actions" : {
+            "rollover" : {
+              "max_primary_shard_size" : "30gb",
+              "max_age" : "7d"
+            }
+          }
+        },
+        "version" : 1,
+        "modified_date_in_millis" : 1669130682750
+      }
+    }
+  }
+}
